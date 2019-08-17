@@ -1,0 +1,57 @@
+*{
+margin: 0;
+padding: 0;
+}
+.img2d{
+    background-color: indigo;
+    width: 200px;
+    height:200px;
+    transform: translate(700px,59px);
+    border-radius: 50%;
+
+
+}
+.img2d-olho1{
+    background-color: rgb(165, 161, 161);
+    width: 50px;
+    height: 50px;
+    transform: translate(728px,-95px);
+    border-radius: 50%;
+}
+.img2d-olho2{
+    background-color: rgb(148, 147, 147);
+    width: 50px;
+    height: 50px;
+    transform: translate(820px,-145px);
+    border-radius: 50%;
+
+}
+.boca{  
+    background-color: rgb(165, 164, 164);
+    width: 80px;
+    height: 30px;
+    transform: translate(761px,-91px);
+    border-radius: 50%;
+
+}                                        
+.nariz{
+    background-color: rgb(255, 217, 0);
+    width: 25px;
+    height: 25px;
+    transform: translate(786px,-164px);
+    border-radius: 50%;
+}
+.img3d{
+    background-color: indigo;
+    width: 200px;
+    height: 200px;
+    transform: perspective(100px) translateZ(50px);
+    border-radius: 50%;
+    left: 700px;
+    position: relative;
+}
+.ru:hover{
+    transform: rotateZ(360deg);
+    transition: 5s;
+    background-color: #000;
+}

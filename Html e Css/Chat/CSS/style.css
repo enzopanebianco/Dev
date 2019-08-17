@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pai{
+    height: 300vh;
+    width: 80%;
+    background-color: rgb(150, 150, 150);
+    margin: auto;
+    position: relative;
+    
+}
+.filho-azul{
+    width: 30%;
+    height: 30vh;
+    background: lightskyblue;
+    position: relative;
+    left: 0;
+    top: 60px;  
+    
+}
+.filho-roxo{
+    width: 30%;
+    height: 30vh;
+    background:rebeccapurple;
+    position: absolute;
+    right: 0;
+    
+    top: 60px;
+    
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.flex-container{
+    display: flex;
+}                
+ #chat .flex-container>*{
+                                     
+flex: 1;
+
+}                                                     
+#chat{
+    width: 400px;
+    height: 40vh;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 45px;
+    right: 0;
+        
+}
+#chat header{
+    width: 100%;
+    height: 47px;
+    background-color:rgb(156, 119, 255);
+    padding-left: 1.7rem;
+    padding-top: 0.25em;
+    
+   
+}  
+#chat .perfil{
+    flex: 4;
+    align-items: center;
+}
+#chat .perfil-dados{
+    flex: 4;
+
+}
+#chat .acoes{
+    flex: 1;
+}
+#chat nav{
+    align-items: center;
+    justify-content: space-around;
+}
+#chat .perfil-img{
+    width: 100%;
+    height: 100%;
+    flex: 1;
+}
+#chat .perfil-img img{
+    width: 75%;
+    height: 65%;
+    
+}
+#chat .perfil-nome{
+    font-weight: 600;
+    color: midnightblue;
+}
+#chat .perfil-status{
+    color: rgb(0, 255, 0);
+    text-shadow: 0px 0px 1px green;
+}
+#chat .acoes a{
+    color: rgb(255, 255, 255);
+}
+#chat main{
+    width: 100%;
+    overflow-y: auto;
+    height: 33vh;
+    flex-direction: column;
+}
+#chat .chat-msg{
+    width: 80%;
+    background: #cccccc;
+    border-radius: 20px;
+    margin: 1em;
+    padding: 0.5em;
+}
+#chat .enviada{
+ align-self: flex-end;
+background: rgb(173, 252, 173);
+
+}
+#chat footer{
+    height: 45px;
+    background: rgb(156, 119, 255);
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5em;
+}
+#chat footer form{
+ flex: 4 !important; 
+    
+}
+#chat  form textarea{
+    width: 80%;
+    resize: none;
+}
+#chat form  i{
+    flex: 2;
+}

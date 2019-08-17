@@ -1,0 +1,22 @@
+<html>
+   <link href="Css/main.css" rel="stylesheet">
+    <h1 class="aaa">
+        CADASTRAR
+    </h1>
+    @ViewBag.Mensagem
+    <form action="/Usuario/Cadastrar" method="POST">
+    <label >
+        NOME
+    <input type="text" name="nome">
+    </label>
+    <label>
+        Email
+    <input type="email" name="email">
+    </label>
+    <label>
+        SENHA
+    <input type="password" name="senha" required-minlength="6">
+    </label>
+    <button type="submit">CADASTRAR</button> 
+    </form>
+</html>

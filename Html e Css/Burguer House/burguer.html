@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger House - The best of the world</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            /*garante que ao adicionar o padding o elemento escale pra dentro*/
+            margin: 0;
+            padding: 0;
+            font-family: 'rockwell';
+        }
+
+        .topo {
+            width: 1366px;
+            /*Isto e a largura*/
+            height: 50px;
+            /*altura*/
+            background: #b22021;
+            margin: 0 auto;
+        }
+
+        .menu ul {
+            list-style-type: none;
+            padding-top: 10px;
+        }
+
+        .menu li {
+            display: inline;
+            margin: 0 75px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 50px 15px 50px;
+            font-size: 23px;
+
+        }
+
+        .menu a:hover {
+            background-color: #e65e35;
+            box-shadow: 1px 3px 5px rgb(0, 0, 0)
+        }
+
+        .container {
+            width: 1366px;
+            height: auto;
+            margin: auto;
+        }
+
+        .banner {
+            width: 1366px;
+            height: 512px;
+            background: url("imagens/burguer_banner_1.png");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .banner img { 
+           margin: 0 auto;
+            display: block;
+            transform: translateY(-32px)
+        }
+
+        /* Estilizando texto*/
+
+        h1 {
+            font-size: 48px;
+        }
+
+        h2 {
+            font-size: 55px;
+            text-align: center;
+
+        }
+
+        h3 {
+            font-size: 40px;
+        }
+
+        h4 {
+            font-size: 30px;
+        }
+
+        h5 {
+            font-size: 24px;
+        }
+
+        h6 {
+            font-size: 18px;
+        }
+
+        /*Aplicando uma mesma regra a varios seleores*/
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-weight: 800;
+        }
+
+        section {
+            margin-top: 64px;
+        }
+
+        /*Seção burgers*/
+
+        section {
+            margin: 64px 0px;
+
+        }
+
+        #burgers h2 {
+            color: #b22021;
+
+
+        }
+
+        /*Estilizando o cardápio*/
+
+        #cardápioBurger {
+            width: 1040px;
+            margin: 72px auto 0px auto;
+
+
+        }
+
+        #cardápioBurger .preco {
+            font-size: 48px;
+            color: #b22021;
+            margin-top: 32px;
+            font-weight: 800
+        }
+
+        .cardápio-burger-item {
+            background-color: #ff8b1e;
+            display: inline-block;
+            height: 310px;
+            width: 500px;
+            padding: 15px;
+            color: white;
+        }
+
+        .cardápio-burger-item h3 {
+            text-align: center;
+        }
+
+        .cardápio-imagem {
+            display: inline-block;
+        }
+
+        .cardápio-imagem img {
+
+            height: 120px;
+
+        }
+
+        .cardápio-ingredientes {
+            display: inline-block;
+            margin-left: 26px;
+            font-size: 26px;
+
+        }
+
+        /*Cardápio de shakes*/
+
+        #shakes {
+            background-color: rgb(255, 255, 255);
+            height: 330px;
+        }
+
+        #cardapioShakes {
+            margin: auto;
+            width: 964px;
+
+        }
+
+        /*pega todos menos os elementos*/
+
+        .cardapio-shakes-item~.cardapio-shakes-item {
+            margin-left: 32px;
+        }
+
+        .cardapio-shakes-item {
+            background-color: green;
+            color: white;
+            float: left;
+            width: 300px;
+            padding: 12px;
+            text-align: center;
+            margin-top: 72px;
+
+        }
+
+        .cardapio-shakes-item h3 {
+            font-size: 25px;
+
+        }
+
+        #shakes h2 {
+            color: #f2ad00;
+        }
+
+        .cardapio-shakes-item img {
+            height: 150px;
+
+        }
+
+        .cardapio-shakes-item p {
+            font-size: 25px;
+            text-align: left;
+            color: #f2ad00;
+        }
+
+        /*Margens, tamanhos e paddings*/
+
+        .ma-l-p {
+            margin-left: 26px
+        }
+
+        .ma-l-m {
+            margin-left: 36px;
+        }
+
+        .ma-l-g {
+            margin-left: 72px;
+        }
+
+        .ma-t-p {
+            margin-top: 26px;
+        }
+
+        .ma-t-m {
+            margin-top: 36px;
+        }
+
+        .ma-t-g {
+            margin-top: 72px;
+        }
+
+        /*Quebras*/
+
+        .quebra .quadrados {
+            width:1366px;
+            height: 16px;
+            background-color: rgb(161, 131, 31);
+
+
+        }
+
+        .quebra .circulos {
+            background-color: rgb(0, 0, 0);
+            height: 64px;
+            border-radius: 50%;
+            margin: auto;
+            margin-top: -40px;
+            width: 64px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="topo">
+        <nav class='menu'>
+            <ul>
+                <li>
+                    <a href=index.html>HOME</a>
+                </li>
+                <li>
+                    <a href=#>BURGERS</a>
+                </li>
+                <li>
+                    <a href=#>SHAKES</a>
+                </li>
+                <li>
+                    <a href=#>ONDE</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class='container'>
+
+        <div class='banner'>
+            <img src='imagens/logo.png' alt='Logotipo da empresa Burguer House com texo ilustrativo'>
+        </div>
+
+        <div class='quebra'>
+            <div class='quadrados'></div>
+            <div class='circulos'></div>
+        </div>
+        <section id='burgers'>
+            <h2>BURGERS</h2>
+            <div id='cardápioBurger'>
+                <!--Item da linha do cardápio-->
+                <div class='cardápio-linha'>
+                    <!--Linha do cardápio-->
+                    <div class="cardápio-burger-item">
+                        <h3>FAT ONE</h3>
+                        <div class='cardápio-imagem'>
+                            <img src="imagens/burguer_1.png" alt='hamburgao de carne bovina'>
+                        </div>
+                        <div class='cardápio-ingredientes'>
+                            <ul>
+                                <li>Carne Bovina</li>
+                                <li>Alface</li>
+                                <li>Tomate</li>
+                                <li>Picles</li>
+                            </ul>
+
+                        </div>
+                        <p class="preco">R$19.90</p>
+                    </div>
+                    <div class="cardápio-burger-item ma-l-m">
+                        <h3>FAT ONE</h3>
+                        <div class='cardápio-imagem'>
+                            <img src="imagens/burguer_2.png" alt='hamburgao de carne bovina'>
+                        </div>
+                        <div class='cardápio-ingredientes'>
+                            <ul>
+                                <li>Carne Bovina</li>
+                                <li>Alface</li>
+                                <li>Tomate</li>
+                                <li>Picles</li>
+                            </ul>
+
+                        </div>
+                        <p class="preco">R$19.90</p>
+                    </div>
+                </div>
+                <div class='cardápio-linha ma-t-m'>
+                    <!--Linha do cardápio-->
+
+                    <div class="cardápio-burger-item">
+                        <h3>GLORIOUS</h3>
+                        <div class='cardápio-imagem'>
+                            <img src="imagens/burguer_3.png" alt='hamburgao de carne bovina'>
+                        </div>
+                        <div class='cardápio-ingredientes'>
+                            <ul>
+                                <li>Carne Bovina</li>
+                                <li>Alface</li>
+                                <li>Tomate</li>
+                                <li>Picles</li>
+                            </ul>
+
+                        </div>
+                        <p class="preco">R$19.90</p>
+                    </div>
+                    <div class="cardápio-burger-item ma-l-m">
+                        <h3>FAT ONE</h3>
+                        <div class='cardápio-imagem'>
+                            <img src="imagens/burguer_4.png" alt='hamburgao de carne bovina'>
+                        </div>
+                        <div class='cardápio-ingredientes'>
+                            <ul>
+                                <li>Carne Bovina</li>
+                                <li>Alface</li>
+                                <li>Tomate</li>
+                                <li>Picles</li>
+                            </ul>
+
+                        </div>
+                        <p class="preco">R$19.90</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class='quebra'>
+                <div class='quadrados'></div>
+                <div class='circulos'></div>
+        </section>
+        <h2>SHAKES</h2>
+        <div id='cardapioShakes'>
+            <div class='cardapio-shakes-item'>
+                <h3>CHOCOLATE DREAM</h3>
+                <img src="imagens/shake_1.png" alt="Milkshake chocolate dream">
+                <p class+ 'preco'>R$ 7,50</p>
+            </div>
+            <div class='cardapio-shakes-item'>
+                <h3>CHOCOLATE DREAM</h3>
+                <img src="imagens/shake_2.png" alt="Milkshake chocolate dream">
+                <p class+ 'preco'>R$ 7,50</p>
+            </div>
+            <div class='cardapio-shakes-item'>
+                <h3>CHOCOLATE DREAM</h3>
+                <img src="imagens/shake_3.png" alt="Milkshake chocolate dream">
+                <p class+ 'preco'>R$ 7,50</p>
+            </div>
+        </div>
+        </section>
+        <span style='clear : both; display: block;'></span>
+        <p>eita</p>
+    </main>
+</body>
+
+</html>

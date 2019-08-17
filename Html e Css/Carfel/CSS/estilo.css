@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    outline: none;
+}
+.teto{
+    background-color: #1d1d93;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 2;
+}
+.teto img{
+    width: 68px;
+    height: 56px;
+    margin-left: 60px;
+    filter: opacity(80%);
+    
+}
+.teto ul{
+    display: flex;
+    position: absolute;
+    right: 50px;
+    top: 15px;
+    
+}
+.teto li{
+    padding:  0em 2em 0em 2em;
+    
+    list-style-type: none;
+    
+}
+.teto a{
+    color: rgb(255, 255, 255);
+    font-family: tw cen mt;
+    text-decoration: none;
+    padding:  0em 2em 0em 2em;
+    font-size: 1.2em;
+
+}
+.teto a:hover{
+    color: rgb(214, 178, 15);
+}
+.banner img{
+    filter: blur(2px) grayscale(60%);
+    width: 100%;
+    height: 500px;
+}
+.texto{
+    color: rgb(255, 255, 255);
+    font-family: tw cen mt;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 1px 1px 0px #000;
+    z-index: 1;
+    position:absolute;
+    top: 200px;
+    flex-wrap: nowrap;
+}
+.texto h1{
+    font-size: 2.5em;
+    text-align: center;
+    position: relative;
+    left: 480px;
+}
+.texto p{
+    font-size: 1.5em;
+    left: 500px;
+    width: 600px;
+    height: 250px;
+    
+    position: relative;
+    
+}
+.plano{
+    background: #000;
+    width: 100%;
+    height: 350px;
+}
+.precos{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: segoe ui light;
+    padding: 1em;
+    top: 20px;
+    
+
+    
+
+}
+.plano article{
+    padding: 32px;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.flex-container > .plano {
+    
+    width: 100px;
+    margin: 40px;
+    text-align: center;
+    
+    font-size: 1.8em;
+    
+  }
+.free{
+    background-color: rgb(255, 255, 255);
+    width: 176px;
+    height: 238px;
+    box-shadow: #f1f1f1;
+    border-radius: 30px;
+    
+
+  }
+.borda{
+    background-color:#000;
+    width:200px ;
+    height: 262px;
+    border-radius: 30px;
+    transform: translateX(-12px) translateY(-12px);
+}
+.free button{
+    background: #ffffff;
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+    font-family: tw cen mt;
+    font-weight: 600;
+    font-size: 10pt;
+    text-transform: uppercase;
+    border: 3px solid;
+    
+    
+}
+.baixo{
+    background-color: aqua;
+    width: 176px;
+    height: 238px;
+    box-shadow: #f1f1f1;
+    border-radius: 30px;
+    color: aqua;
+}
+.baixo button{
+    background: aqua;
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+    font-family: tw cen mt;
+    font-weight: 600;
+    font-size: 10pt;
+    text-transform: uppercase;
+    border: 3px solid;
+    
+    
+}
+.alto{
+    background-color: goldenrod;
+    width: 176px;
+    height: 238px;
+    box-shadow: #f1f1f1;
+    border-radius: 30px;
+    color: goldenrod;
+    filter: brightness(120%);
+}
+.alto button{
+    background: goldenrod;
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+    font-family: tw cen mt;
+    font-weight: 600;
+    font-size: 10pt;
+    text-transform: uppercase;
+    border: 3px solid;
+    
+}
+.sobre{
+    background: #1d1d93;
+    width: 100%;
+    height: 300px;
+    flex-wrap: nowrap;
+    position: static;
+  
+}
+.sobrenos{
+    color: #ffffff;
+    font-family:tw cen mt;
+    left: 70px;
+    
+    top: 20px;
+}
+.sobrenos h2{
+    position: relative;
+    left: 340px;
+    font-size: 1.7em;
+    top: 10px;
+}
+.sobrenos p{
+    color: rgb(255, 255, 255);
+    width: 900px;
+    height: 300px;
+    font-size: 1.2em;
+    margin-left:50px ;
+    
+}
+.sobrenos button{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: tw cen mt;
+    font-weight: 600;
+    font-size: 15pt;
+    width: 130px;
+    height: 30px;
+    transform: translateY(-200px) translateX(50px);
+    text-transform: uppercase;
+}
+
+.localizacao h3{
+    font-size: 2em;
+    position: absolute;
+    transform: translateY(-370px);
+    right: 160px;
+    z-index: 1;
+    font-family:arial;
+    color: darkred;
+    text-shadow: 1px 1px 0 rgb(141, 139, 139);
+    
+            
+}
+.localizacao img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    transform: translateY(-370px);
+    right: 120px;
+}

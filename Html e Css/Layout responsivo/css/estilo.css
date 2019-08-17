@@ -1,0 +1,167 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: tw cen mt;
+}
+body{
+    font-size: 14px;
+}
+.top-bar{
+    width: 100%;
+    height: auto;
+    background-color: #140830;
+    display: flex;
+    padding: 1% 5%;
+    flex-direction: row;
+}
+.logo{
+    color: white;
+    font-size: 1.4em;
+    padding: 0 ;
+    /* background-color: #888; */
+    flex: 1;
+}
+.menu{
+    /* background-color: gray; */
+    flex: 3;
+}
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex-direction: row;
+}
+.menu ul li {
+    flex: 1;
+    /* background-color: #444; */
+    text-align: center;
+
+}
+.menu ul a {
+    color: white;
+    text-decoration-line: none;
+    font-size: 1.8em;
+    padding: 0.8em 2em;
+    /* background-color: red; */
+
+}
+.menu ul a:hover{
+    color: rgb(245, 182, 48)
+}
+.banner{
+    background: url('../imagens/banner.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+   background-position: center;
+    justify-content: center;
+    align-items: center;
+    /* background-position: center; */
+}
+.banner-text{
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+.banner-text h2 {
+    font-size: 4em;
+}
+.banner-text p{
+    font-size: 2em;
+    text-shadow: 0 0 2px #000;
+
+}
+.cont-principal{
+    text-align: center;
+    width: 100%;
+    /* background-color: cyan; */
+    padding: 2em;
+}
+.cont-principal h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.cont-principal-itens{
+    display: flex;
+    padding: 2em;
+    justify-content: space-around;
+    
+}
+.cont-principal-item{
+    max-width: 300px;
+}
+.cont-principal item h3{
+    font-size: 1.5em;
+    padding:0.5em;
+}
+.contact{
+    background: url('../imagens/celular.jpg');
+    background-size: cover;
+    padding: 5em 0;
+    text-align: center;
+    flex-direction: column;
+    
+
+}
+.contact h2{
+    color: #fff;
+    font-size: 2em;
+
+}
+.contact-items form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+.contact-items{
+    display:flex;
+    justify-content: center;
+}
+.contact-items form>*{
+    margin-bottom: 1em;
+
+}
+.contact-items form input[type='button']{
+    width: 50%;
+    margin: auto;
+}
+.contact-items form input{
+    height:2.2em;
+    border-radius: 20px;
+    font-size: 1.5em;
+}
+.contact-items textarea{
+    border-radius: 5px;
+    resize: none;
+    
+}
+.fullscreen{
+    min-height: 100vh;/*viewport height*/
+}
+/*largura até 910px*/
+@media screen and(max-width:910px){
+    .top-bar{
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+}
+
+@media screen and(max-width:560px){
+    .banner-text{
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+    .banner-text h2 {
+        font-size: 2em;
+    }
+    .logo{
+        display: none;
+    }
+}

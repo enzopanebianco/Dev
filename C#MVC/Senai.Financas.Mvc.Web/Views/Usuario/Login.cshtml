@@ -1,0 +1,19 @@
+<html>
+    <h1>
+        Login
+    </h1>
+    
+    @ViewBag.Mensagem
+    <form action="/Usuario/Login" method="Post">
+<label>
+    Email:
+<input type="email" name="email" required maxlength="50">
+</label>
+<label>
+    Senha:
+    <input type="password " name="senha" required maxlength="20">
+</label>
+<button type="submit">ENTRAR NO SISTEMA</button>
+
+    </form>
+    </html>

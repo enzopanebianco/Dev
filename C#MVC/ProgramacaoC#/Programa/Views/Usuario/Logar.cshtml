@@ -1,0 +1,21 @@
+<html>
+     @{
+        Layout = "MasterPageDeslogado";
+    }
+    <h1>
+        Login
+    </h1>
+    @ViewBag.Mensagem 
+<form action="/Usuario/Logar" method="POST">
+<label>
+    Email
+    <input type="email" name="email">
+</label>
+<label>
+    Senha
+    <input type="password" name="senha">
+</label>
+<button type="submit">LOGAR</button>
+</form>
+
+</html>

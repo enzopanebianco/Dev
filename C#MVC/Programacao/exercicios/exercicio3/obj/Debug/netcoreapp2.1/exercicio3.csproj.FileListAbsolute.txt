@@ -1,0 +1,11 @@
+C:\Users\52742298835\Desktop\DEV\Programacao\exercicios\exercicio3\obj\Debug\netcoreapp2.1\exercicio3.csprojAssemblyReference.cache
+C:\Users\52742298835\Desktop\DEV\Programacao\exercicios\exercicio3\obj\Debug\netcoreapp2.1\exercicio3.csproj.CoreCompileInputs.cache
+C:\Users\52742298835\Desktop\DEV\Programacao\exercicios\exercicio3\obj\Debug\netcoreapp2.1\exercicio3.AssemblyInfoInputs.cache
+C:\Users\52742298835\Desktop\DEV\Programacao\exercicios\exercicio3\obj\Debug\netcoreapp2.1\exercicio3.AssemblyInfo.cs
+C:\Users\52742298835\Desktop\DEV\Programacao\exercicios\exercicio3\bin\Debug\netcoreapp2.1\exercicio3.deps.json
+C:\Users\52742298835\Desktop\DEV\Programacao\exercicios\exercicio3\bin\Debug\netcoreapp2.1\exercicio3.runtimeconfig.json
+C:\Users\52742298835\Desktop\DEV\Programacao\exercicios\exercicio3\bin\Debug\netcoreapp2.1\exercicio3.runtimeconfig.dev.json
+C:\Users\52742298835\Desktop\DEV\Programacao\exercicios\exercicio3\bin\Debug\netcoreapp2.1\exercicio3.dll
+C:\Users\52742298835\Desktop\DEV\Programacao\exercicios\exercicio3\bin\Debug\netcoreapp2.1\exercicio3.pdb
+C:\Users\52742298835\Desktop\DEV\Programacao\exercicios\exercicio3\obj\Debug\netcoreapp2.1\exercicio3.dll
+C:\Users\52742298835\Desktop\DEV\Programacao\exercicios\exercicio3\obj\Debug\netcoreapp2.1\exercicio3.pdb

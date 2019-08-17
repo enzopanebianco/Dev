@@ -1,0 +1,29 @@
+<html>
+    @{
+        Layout = "MasterPageDeslogado";
+    }
+    <h1>
+        Listar Tarefas
+    </h1>
+    @ViewBag.Mensagem
+    <form action="/Tarefa/Listar" method="POST">
+    <label>
+        Nome
+        <input type="text" name="nome" required="true">
+    </label>
+    <label>
+        Descrição
+    <textarea name="descricao" required="true">             
+    </textarea>
+    </label>
+    <label>
+    Tipo
+<select name="tipo">
+    <option value="Para Fazer">Para Fazer</option>
+    <option value="Fazendo">Fazendo</option>
+    <option value="Feito">Feito</option>
+</select>
+</label>
+<button type="submit">ENVIAR TAREFA</button>
+    </form>
+</html>

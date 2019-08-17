@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.flex-container{
+    width: 90%;
+    background:blue;
+    margin: auto;
+    /*Propriedades Flex*/
+    display: flex;
+    flex-direction: row; /*column*/ /*row*/
+    flex-wrap: wrap;
+    justify-content:center ;
+    align-items:stretch;
+}
+.flex-item{
+    flex-basis: 150px;
+    flex-grow: 1;
+    height: 100px;
+    background: orange;
+    margin: 5px;
+    padding: 10px;
+    align-items: center;
+    flex-shrink: 0;
+    
+}
+.order1{
+    order: 1;
+}
+.order2{
+    order: 2;
+}
+.order3{
+    order: 3;
+}
+.order4{
+    order: 4;
+}

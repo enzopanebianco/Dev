@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet"> "
+</head>
+
+<body>
+    <!--Tag de formulário-->
+    <form>
+        <label for="inputNome">Nome:</label>
+
+        <input id="inputNome" class="input-text" type='text' placeholder="Username" required maxlength="30" minlength="1">
+        <br/>
+        <label>
+            Sobrenome:
+            <input  class="input-text" type="text" placeholder="Insira seu sobrenome">
+         </label>
+            
+        <br>
+        <label>e-mail:
+            <input type="email" placeholder="Insira seu e-mail">
+        </label>
+        <br>
+        <label>Senha:
+            <input type="password" placeholder="Insira sua senha">
+        </label>
+        <br>
+        <label>Você aceita os termos de contrato?
+            <input type="checkbox">
+            <br>
+            <input type="radio" name="gênero" checked>Feminino
+            <br>
+            <input type="radio" name="gênero">Masculino
+            <br>
+            <label>
+                Escreva aqui sua mensagem
+                <textarea></textarea>
+
+            </label>
+            <br>
+            <label>Mês de Nascimento:
+                <select>
+                    <option>Janeiro</option>
+                    <option>Fevereiro</option>
+                    <option>Março</option>
+                    <option>Abril</option>
+                </select>
+            </label>
+        </label>
+        <button class="btn bg-purple">
+            Enviar Dados</button>
+
+        <a class="btn bg-green" href="https://www.google.com">GOOGLE</a>
+
+        </button>
+    </form>
+</body>
+
+</html>

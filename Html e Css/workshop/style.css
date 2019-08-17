@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(to right, #ffffff,#c93e3e);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item{
+    width: 300px;
+    height: 200px;
+    flex-grow: 1;
+    background:rgb(46, 41, 41);
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.pd {
+    padding-top:20px;
+}
+.order-1{
+    order: 1;
+}
+.order-2{
+    order: 2;
+}
+.order-3{
+    order: 3;
+}
+.order-4{
+    order: 4;
+}
+
+#burger1:hover{
+    filter: blur(5px);
+    transition: 2s;
+}
+
+#burger2:hover{
+    filter: brightness(250%);
+    transition: 2s;
+}
+
+#burger3:hover{
+    filter: drop-shadow(1px 1px 10px rgb(229, 255, 0));
+}
+#burger4:hover{
+    filter: grayscale(100%);
+    transition: 2s;
+}
+
+#burger5:hover{
+    filter: hue-rotate(180deg);
+    transition: 3s;
+}
+
+#burger6:hover{
+    filter: invert(0.9);
+    transition: 2s;
+}
+#burger7:hover{
+    filter: opacity(40%);
+    transition: 2s;
+    
+}
+
+#burger8:hover{
+    filter: saturate(18);
+    transition: 2s;
+}
+
+#burger9:hover{
+    filter: sepia(100%);
+    transition: 2s;
+}
+#burger10:hover{
+    filter: contrast(200%);
+    transition: 2s;
+}
+.h1{
+   
+    color: rgb(8, 0, 6);
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2em;
+}    
+.h1:hover{
+    filter: contrast(200%);
+    color: rgb(255, 9, 181);
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2em;
+}    
+.fundo1:hover{
+
+    filter: hue-rotate(360deg);
+    transition: 200s;
+}
+.fundo1{
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    height: 3000px;
+}
+
+.fundo2-button{
+    border-radius: 30px;
+    background-color: rgb(139, 29, 202);
+    text-align: center;
+    padding: 220px;
+    margin: 100px;
+    
+}
+.fundo2-button p{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 40px;
+}
+.fundo2-button:hover{
+    filter:contrast(200%);
+}

@@ -1,0 +1,43 @@
+<html>
+    <h1>
+        CADASTRO TRANSAÇÕES
+    </h1>
+    <style>
+        .w{
+            background-color: blue;
+            height: 900px;
+        }
+        .a{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            display: flex;
+           
+        }
+    </style>
+    <section class="w">
+    <form class="a" action="Transacao/Cadastrar" method="POST">
+    
+        <label>
+            Tipo
+            <input type="text" name="tipo">
+        </label>
+        
+        <label>
+            Descricao
+            <input type="text" name="descricao">
+
+        </label>
+        
+        <label>
+            Data da Transaçâo
+            <input type="text" name="dataTransacao">
+        </label>
+        
+        <label>
+            Valor
+            <input type="number" name="valor">
+        </label>
+        <button type="submit">SALVAR</button>
+    </form>
+    </section>
+</html>
